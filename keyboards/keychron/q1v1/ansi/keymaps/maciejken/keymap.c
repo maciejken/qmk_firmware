@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // Mac_fn
     [1] = LAYOUT_ansi_82(
-        QK_BOOT,            KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   _______, RM_SATU,
+        QK_BOOT,            KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SLEP, RM_SATU,
         _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,           RM_HUEU,
         RM_TOGG,  RM_NEXT,  PL_NACU,  PL_SACU,  PL_CACU,  PL_ZACU,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,           RM_HUED,
         _______,  PL_AOGO,  PL_OACU,  PL_EOGO,  PL_LSTR,  PL_ZDOT,  _______,  _______,  _______,  _______,  _______,  _______,            _______,           RM_SATD,
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // Win_fn
     [3] = LAYOUT_ansi_82(
-        RM_TOGG,            KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   _______, RM_SATU,
+        RM_TOGG,            KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_SLEP, RM_SATU,
         _______,  KC_EXLM,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_7,     KC_8,     KC_9,     KC_9,     KC_PLUS,  _______,  _______,           RM_HUEU,
         _______,  _______,  KC_SCLN,  KC_COLN,  _______,  _______,  _______,  KC_4,     KC_5,     KC_6,     KC_6,     KC_SLSH,  _______,  _______,           RM_HUED,
         _______,  _______,  _______,  _______,  KC_AMPR,  _______,  _______,  KC_1,     KC_2,     KC_3,     KC_PLUS,  KC_MINS,            _______,           RM_SATD,
