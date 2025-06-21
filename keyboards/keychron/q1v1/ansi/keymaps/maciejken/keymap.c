@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,   KC_P,     KC_COMM,  KC_DOT,   KC_U,     KC_B,     KC_J,     KC_T,     KC_C,     KC_K,     KC_D,     KC_SLSH,  KC_EQL,   KC_BSLS,           KC_PGDN,
         KC_CAPS,  KC_Y,     KC_I,     KC_A,     KC_E,     KC_O,     KC_W,     KC_Z,     KC_R,     KC_N,     KC_S,     KC_MINS,            KC_ENT,            KC_HOME,
         KC_LSFT,            KC_SCLN,  KC_H,     PL_AOGO,  PL_EOGO,  PL_OACU,  PL_LSTR,  KC_M,     KC_L,     KC_G,     KC_QUOT,            KC_RSFT,  KC_UP,
-        KC_LCTL,  MO(3),    KC_LALT,                                KC_SPC,                                 TG(3),    KC_RALT,  KC_RCTL,  KC_LEFT,  KC_DOWN, KC_RGHT),
+        KC_LCTL,  MO(3),    KC_LGUI,                                KC_SPC,                                 KC_RGUI,  KC_RALT,  KC_RCTL,  KC_LEFT,  KC_DOWN, KC_RGHT),
 
     // Win_fn
     [3] = LAYOUT_ansi_82(
